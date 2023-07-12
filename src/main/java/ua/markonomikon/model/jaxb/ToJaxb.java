@@ -12,3 +12,14 @@ public class ToJaxb {
     @XmlElement(name = "surname")
     public String surname;
 }
+
+
+
+
+
+
+
+
+/*
+ * Created by markonomikon.
+ */

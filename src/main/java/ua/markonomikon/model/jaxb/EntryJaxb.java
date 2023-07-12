@@ -10,5 +10,16 @@ public class EntryJaxb {
     @XmlElement(name = "id")
     public String id;
     @XmlElement(name = "metadata")
-    public List<MetadataJaxb> metadata;
+    public List<MetadataJaxb> metadataJaxb;
 }
+
+
+
+
+
+
+
+
+/*
+ * Created by markonomikon.
+ */

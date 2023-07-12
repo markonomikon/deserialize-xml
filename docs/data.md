@@ -21,8 +21,8 @@ as JSON (JavaScript Object Notation) or XML (eXtensible Markup Language).
 
 ### Our example data in XML format
 ```
-<messageJaxb>
-  <object>messageJaxb</object>
+<message>
+  <object>message</object>
   <entry>
     <id>100253349659316</id>
     <metadata>
@@ -38,6 +38,6 @@ as JSON (JavaScript Object Notation) or XML (eXtensible Markup Language).
       </to>
     </metadata>
   </entry>
-</messageJaxb>
+</message>
 ```
 

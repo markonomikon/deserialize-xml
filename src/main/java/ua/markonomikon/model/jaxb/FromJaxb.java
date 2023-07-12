@@ -12,3 +12,14 @@ public class FromJaxb {
     @XmlElement(name = "surname")
     public String surname;
 }
+
+
+
+
+
+
+
+
+/*
+ * Created by markonomikon.
+ */

@@ -12,3 +12,14 @@ public class MessageJaxb {
     @XmlElement(name = "entry")
     public List<EntryJaxb> entryJaxb;
 }
+
+
+
+
+
+
+
+
+/*
+ * Created by markonomikon.
+ */
