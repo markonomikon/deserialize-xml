@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "4d58151d-3fdd-4fee-9d1c-b6e429c264c2",
+		"name": "deserialize-xml",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27753746"
+	},
+	"item": [
+		{
+			"name": "Deserialize (JAXB)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<message>\n  <object>message</object>\n  <entry>\n    <id>100253349659316</id>\n    <metadata>\n      <from>\n        <number>3895412487</number>\n        <name>Black</name>\n        <surname>Jack</surname>\n      </from>\n      <to>\n        <number>3895412487</number>\n        <name>Mick</name>\n        <surname>Mack</surname>\n      </to>\n    </metadata>\n  </entry>\n</message>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/message/jaxb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"message",
+						"jaxb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deserialize (JACKSON)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<message>\n  <object>message</object>\n  <entry>\n    <id>100253349659316</id>\n    <metadata>\n      <from>\n        <number>3895412487</number>\n        <name>Black</name>\n        <surname>Jack</surname>\n      </from>\n      <to>\n        <number>3895412487</number>\n        <name>Mick</name>\n        <surname>Mack</surname>\n      </to>\n    </metadata>\n  </entry>\n</message>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/message/jackson",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"message",
+						"jackson"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
