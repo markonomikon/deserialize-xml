@@ -1,8 +1,6 @@
 package ua.markonomikon.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
@@ -14,8 +12,6 @@ import static ua.markonomikon.management.AppConstants.DESERIALIZE_MESSAGE_PATH;
 
 @Path(DESERIALIZE_MESSAGE_PATH)
 public class DeserializeMessageJaxbService {
-    @Inject
-    ObjectMapper objectMapper;
     @POST
     @Path("/jaxb")
     @Consumes(MediaType.APPLICATION_XML)
